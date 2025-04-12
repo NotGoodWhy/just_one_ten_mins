@@ -1,0 +1,79 @@
+{
+  "@@locale": "ko",
+  "appName": "단 10분",
+  "@appName": {
+    "description": "애플리케이션 이름"
+  },
+  "appDesc": "책과 PDF 파일을 10분 분량의 오디오 요약본으로 변환해주는 애플리케이션",
+  "@appDesc": {
+    "description": "애플리케이션 설명"
+  },
+
+  "home": "홈",
+  "@home": {
+    "description": "홈 화면 타이틀"
+  },
+  "library": "라이브러리",
+  "@library": {
+    "description": "라이브러리 화면 타이틀"
+  },
+  "upload": "업로드",
+  "@upload": {
+    "description": "업로드 화면 타이틀"
+  },
+  "settings": "설정",
+  "@settings": {
+    "description": "설정 화면 타이틀"
+  },
+
+  "selectFile": "파일 선택",
+  "@selectFile": {
+    "description": "파일 선택 버튼 라벨"
+  },
+  "scanBook": "책 스캔",
+  "@scanBook": {
+    "description": "책 스캔 버튼 라벨"
+  },
+  "generateSummary": "요약 생성",
+  "@generateSummary": {
+    "description": "요약 생성 버튼 라벨"
+  },
+  "play": "재생",
+  "@play": {
+    "description": "재생 버튼 라벨"
+  },
+  "pause": "일시정지",
+  "@pause": {
+    "description": "일시정지 버튼 라벨"
+  },
+  "stop": "정지",
+  "@stop": {
+    "description": "정지 버튼 라벨"
+  },
+
+  "error": "오류",
+  "@error": {
+    "description": "오류 다이얼로그 타이틀"
+  },
+  "success": "성공",
+  "@success": {
+    "description": "성공 다이얼로그 타이틀"
+  },
+  "loading": "로딩 중...",
+  "@loading": {
+    "description": "로딩 인디케이터 텍스트"
+  },
+  "cancel": "취소",
+  "@cancel": {
+    "description": "취소 버튼 라벨"
+  },
+  "confirm": "확인",
+  "@confirm": {
+    "description": "확인 버튼 라벨"
+  },
+  "ok": "확인",
+  "@ok": {
+    "description": "확인 버튼 라벨"
+  },
+  "appTitle": "Just One Ten Mins"
+} 

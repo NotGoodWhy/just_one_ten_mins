@@ -1,0 +1,24 @@
+{
+  "@@locale": "en",
+  "appName": "Just 10 Mins",
+  "appDesc": "An application that converts books and PDF files into 10-minute audio summaries",
+
+  "home": "Home",
+  "library": "Library",
+  "upload": "Upload",
+  "settings": "Settings",
+
+  "selectFile": "Select File",
+  "scanBook": "Scan Book",
+  "generateSummary": "Generate Summary",
+  "play": "Play",
+  "pause": "Pause",
+  "stop": "Stop",
+
+  "error": "Error",
+  "success": "Success",
+  "loading": "Loading...",
+  "cancel": "Cancel",
+  "confirm": "Confirm",
+  "ok": "OK"
+} 

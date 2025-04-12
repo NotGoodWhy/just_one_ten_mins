@@ -1,40 +1,44 @@
 name: just_one_ten_mins
+description: 10분 요약 오디오북 앱
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.1.5 <4.0.0'
 
 dependencies:
   flutter:
     sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  
+  # 기본 위젯
+  cupertino_icons: ^1.0.2
+  
   # 상태 관리
   flutter_riverpod: ^2.4.9
+  
   # 라우팅
-  auto_route: ^7.8.4
-  # 의존성 주입
-  get_it: ^7.6.7
-  # 불변 객체
-  freezed_annotation: ^2.4.1
+  auto_route: ^7.7.1
   
-  # PDF 처리
-  file_picker: ^6.1.1
-  flutter_pdfview: ^1.3.2
-  pdf_text: ^0.5.0
-  path: ^1.8.3
+  # 다국어 지원
+  intl: ^0.19.0
   
-  # 오디오 관련
-  just_audio: ^0.9.36
-  flutter_tts: ^3.8.5
-  
-  # 저장소
-  isar: ^3.1.0
-  path_provider: ^2.1.2
-  
-  # 네트워크
-  dio: ^5.4.0
-  
-dev_dependencies:
-  # 코드 생성기
-  build_runner: ^2.4.8
-  auto_route_generator: ^7.3.2
-  freezed: ^2.4.6
-  isar_generator: ^3.1.0 
+  # win32 버전 문제 해결
+  win32: 5.0.7
+  collection: ^1.17.2
 
-environment:
-  sdk: '>=3.1.5 <4.0.0'
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.1
+  
+  # 코드 생성기
+  build_runner: ^2.4.6
+  auto_route_generator: ^7.2.0
+
+flutter:
+  uses-material-design: true
+  generate: true
